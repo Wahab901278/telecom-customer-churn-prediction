@@ -3,8 +3,6 @@
 
 This dataset focuses on individuals who either retain telecom services (Not Churn) or leave the telecom company (Churn) based on various inputs and services offered. The dataset consists of **7,043 observations** and **21 features**, with only one column containing missing values, which I addressed through imputation. There are no outliers present in the dataset.
 
-However, I encountered challenges during the encoding process due to the repetition of the "no service provider" category across six consecutive columns with identical values, which I successfully managed.
-
 I implemented three machine learning classification algorithms—**Random Forest Classifier**, **Naïve Bayes**, and **K-Nearest Neighbors (KNN)**—and compared their prediction outputs.
 
 ### Results:
