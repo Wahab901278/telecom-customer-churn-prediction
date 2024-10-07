@@ -10,5 +10,5 @@ I implemented three machine learning classification algorithms—**Random Forest
   
 - **KNN**: This algorithm excelled at identifying churn, achieving a high recall for Class 1. However, it came at the expense of a higher false positive rate, misclassifying many non-churn instances as churn, which led to lower precision for Class 0.
   
-- **Naïve Bayes**: This model performed the least effectively, with an accuracy of only **69%**, primarily due to the high cardinality of the dataset and the imbalance in the output feature related to churn.
+- **Naive Bayes**: This model performed the least effectively, with an accuracy of only **69%**, primarily due to the high cardinality of the dataset and the imbalance in the output feature related to churn.
 
